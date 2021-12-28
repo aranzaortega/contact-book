@@ -21,9 +21,11 @@ const ContactsTable = ({ contacts = [], dispatch }) => {
       </thead>
       <tbody>
         {contacts.map((contact) => {
+          const finalId = contact.id.split('-');
+
           return (
             <tr key={contact.id}>
-              <th>{contact.id}</th>
+              <th>{finalId[0]}</th>
               <td>{contact.name}</td>
               <td>{contact.number}</td>
               <td>

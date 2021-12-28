@@ -3,7 +3,7 @@ export const ContactsReducer = (state, action) => {
     case 'add':
       return [...state, action.payload];
     case 'delete':
-      return state.filter((currentValue = currentValue.id !== action.payload));
+      return state.filter((currentValue) => currentValue.id !== action.payload);
     default:
       return state;
   }
