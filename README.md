@@ -1,6 +1,6 @@
 # Contact Book React Redux
 
-Javascript vanilla, React, Redux, React DOM, UUII, Bootstrap
+Javascript vanilla, React, Redux, React DOM, UUID, Bootstrap
 
 Add and Delete contacts from a contact book, name and number field with a random generated ID.
 
