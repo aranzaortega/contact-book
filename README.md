@@ -1,3 +1,7 @@
-# react-skd959
+# Contact Book React Redux
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-skd959)
+Javascript vanilla, React, Redux, React DOM, UUII, Bootstrap
+
+Add and Delete contacts from a contact book, name and number field with a random generated ID.
+
+[Made on StackBlitz ⚡️](https://aios-contact-book.stackblitz.io)

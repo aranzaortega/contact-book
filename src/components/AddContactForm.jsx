@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { v4 as uuid } from 'uuid';
 
 const AddContactForm = ({ dispatch }) => {
   const [data, setData] = useState({ name: '', number: '' });
@@ -15,7 +16,7 @@ const AddContactForm = ({ dispatch }) => {
   const actionAdd = {
     type: 'add',
     payload: {
-      id: '123456',
+      id: uuid(),
       name,
       number,
     },
